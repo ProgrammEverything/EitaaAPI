@@ -5,9 +5,9 @@ EitaaAPI is a simple Python package for interacting with the Eitaa messaging pla
 ## Functions
 (All of the arguments are flags for the EitaaYar API)
 - SendMessage: Send a message to the EitaaYar API by the arguments
-- ASendMessage: Send a message using aiohttp (Needs a ClientSession)
+- ASendMessage: asynchronusly Send a message using aiohttp (Needs a ClientSession)
 - SendFile: Send a file using the requests package
-- ASendFile: Send a file using the aiohttp package
+- ASendFile: asynchronusly Send a file using the aiohttp package
 - GetJSON: Process a JSON object to send a message or file
 - GetMe: Get information about the bot
 ```python
