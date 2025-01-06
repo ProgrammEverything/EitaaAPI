@@ -27,4 +27,5 @@ Notice that the message is inside a list of two, this is because you only send 1
 I am not currently planning to support this project. I have tested this but only a couple of times. \
 Just wanted to clarify that this API is not fully complete. \
 So it is a demo. \
-Please note that If any bugs-errors happen that cause damage I am not liable because this is a demo and maybe I will choose to develop It in the future.
+Please note that If any bugs-errors happen that cause damage I am not liable because this is a demo and maybe I will choose to develop It in the future. \
+THIS IS NOT AN OFFICIAL PROJECT OF ANY SORTS. THIS PROJECT IS MADE BY ME AND IT IS NOT MADE OR SAID TO BE OFFICIAL TO THE COMPANY WHO OWNS THE EITAA MESSAGING APP.
