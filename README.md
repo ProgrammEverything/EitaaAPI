@@ -19,9 +19,11 @@ EitaaAPI is a simple Python package for interacting with the Eitaa messaging pla
         }
     }, 'Message_Title'] #Title of the message
 ```
-This sends a message to the eitaayar API with the text: 
-Title: Message_Title \
-Hello, World! \
+This sends a message to the eitaayar API with the text:
+```
+Title: Message_Title
+Hello, World!
+```
 As you can see the Message_Title the second item of the list is our title. It will add a "TITLE: ...\n" to the top of the text and then add the other text.
 Notice that the message is inside a list of two, this is because you only send 1 message at a time in this function.
 Example code: \
