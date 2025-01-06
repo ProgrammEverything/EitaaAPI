@@ -25,8 +25,9 @@ Title: Message_Title
 Hello, World!
 ```
 As you can see the Message_Title the second item of the list is our title. It will add a "TITLE: ...\n" to the top of the text and then add the other text.
-Notice that the message is inside a list of two, this is because you only send 1 message at a time in this function.
-Example code: \
+Notice that the message is inside a list of two, this is because you can only send 1 message per call in this function.
+
+### Example code for the package:
 ```python
 import EitaaAPI
 session = EitaaAPI.Session("YOUR_API_KEY", "YOUR_CHAT_ID")
