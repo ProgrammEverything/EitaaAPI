@@ -31,9 +31,9 @@ Notice that the message is inside a list of two, this is because you can only se
 ```python
 import EitaaAPI
 session = EitaaAPI.Session("YOUR_API_KEY", "YOUR_CHAT_ID")
-session.SendMessage("Example Message")
+session.SendMessage(text="Example Message")
 ```
-The SendMessage function has other flags such as disable_notification which is a flag for the EitaaAPI
+The SendMessage function has other flags such as disable_notification which is a flag for the EitaaYar API.
 # Notice
 I am not currently planning to support this project. I have tested this but only a couple of times. \
 Just wanted to clarify that this API is not fully complete. \
