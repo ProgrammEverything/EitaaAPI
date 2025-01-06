@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling", "requests","aiohttp"]
+build-backend = "hatchling.build"
+[project]
+requires = ["hatchling", "requests","aiohttp"]
+name = "EitaaAPI"
+version = "0.0.1"
+authors = [
+  { name="Sasan Salehi", email="sasanxcoder@gmail.com" },
+  {name = "Sasan Salehi"}
+]
+dependencies = [
+  "aiohttp", "requests"
+]
+maintainers = [
+  { name="Sasan salehi", email="sasanxcoder@gmail.com" },
+]
+license = {file = "LICENSE"}
+keywords = ["Eitaa", "eitaa", "eitaa_api", "eitaaapi", "EITAAAPI", "EitaaApi", "Eitaa_Api"]
+description = "A small client which interacts with the EitaaYar API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+
+]
+[project.urls]
+"Homepage" = "https://github.com/ProgrammEverything/EitaaAPI"
+"Issues" = "https://github.com/ProgrammEverything/EitaaAPI/issues"

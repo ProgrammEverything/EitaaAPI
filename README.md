@@ -19,24 +19,19 @@ EitaaAPI is a simple Python package for interacting with the Eitaa messaging pla
         }
     }, 'Message_Title'] #Title of the message
 ```
-This sends a message to the eitaayar API with the text:
-```
-Title: Message_Title
-Hello, World!
-```
+This sends a message to the eitaayar API with the text: 
+Title: Message_Title \
+Hello, World! \
 As you can see the Message_Title the second item of the list is our title. It will add a "TITLE: ...\n" to the top of the text and then add the other text.
-Notice that the message is inside a list of two, this is because you can only send 1 message per call in this function.
-
-### Example code for the package:
+Notice that the message is inside a list of two, this is because you only send 1 message at a time in this function.
+Example code: \
 ```python
 import EitaaAPI
 session = EitaaAPI.Session("YOUR_API_KEY", "YOUR_CHAT_ID")
-session.SendMessage(text="Example Message")
+session.SendMessage("Example Message")
 ```
-The SendMessage function has other flags such as disable_notification which is a flag for the EitaaYar API.
+The SendMessage function has other flags such as disable_notification which is a flag for the EitaaAPI
 # Notice
 I am not currently planning to support this project. I have tested this but only a couple of times. \
 Just wanted to clarify that this API is not fully complete. \
 So it is a demo. \
-Please note that If any bugs-errors happen that cause damage I am not liable because this is a demo and maybe I will choose to develop It in the future. \
-THIS IS NOT AN OFFICIAL PROJECT OF ANY SORTS. THIS PROJECT IS MADE BY ME AND IT IS NOT MADE OR SAID TO BE OFFICIAL TO THE COMPANY WHO OWNS THE EITAA MESSAGING APP.
